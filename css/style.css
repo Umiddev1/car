@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.container {
+    width: 1320px;
+    margin-top: 500px;
+    margin-bottom: 500px;
+    
+
+}
+.content {
+    width: 920px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+
+}
+.img-sed-suv-lux {
+    padding-top: 48px;
+    padding-left: 48px;
+}
+.title {
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: bold;
+    color:#F2F2F2;
+    font-size: 40px;
+    padding-top: 43px;
+    padding-left: 48px;
+}
+.text {
+    font-family: 'Lexend Deca', sans-serif;
+    color: #FFFFFF;
+    margin-top: 25px;
+    line-height: 25px;
+    padding-left: 47.5px;
+    padding-right: 47.5px;
+    font-size: 15px;
+    font-weight: normal;
+
+}
+.text-sed-suv-lux {
+    width: 212px;
+    height: 160px;
+}
+.sedans {
+    width: 307px;
+    height: 500px;
+    border: 1px solid #c26706;
+    border-radius: 8px;
+    background-color: #E28625;
+}
+.suvs {
+    width: 307px;
+    height: 500px;
+    border: 1px solid #006971;
+    border-radius: 8px;
+    background-color: #006971;
+}
+.luxury {
+    width: 307px;
+    height: 500px;
+    border: 1px solid #004140;
+    border-radius: 8px;
+    background-color: #004140;
+}
+.btn-sed-suv-lux {
+    margin-top: 48px;
+    padding-left: 47.5px;
+    padding-right: 47.5px;
+}
+.button {
+    width: 146px;
+    height: 48px;
+    border: 2px solid #FFFFFF;
+    border-radius: 25px;
+    color: #FFFFFF;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    transition: background 0.4s;
+}
+.button-sedan {
+    background-color: #E28625;
+}
+.button-sedan:hover {
+    background-color: #FFFFFF;
+    color: #E28625;
+}
+.button-suv {
+    background-color: #006971;
+}
+.button-suv:hover {
+    background-color: #FFFFFF;
+    color: #006971;
+}
+.button-lux {
+    background-color: #004140;
+}
+.button-lux:hover {
+    background-color: #FFFFFF;
+    color: #004140;
+}
